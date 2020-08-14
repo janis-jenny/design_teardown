@@ -1,3 +1,14 @@
+:root {
+  --color-1: #000;
+  --color-2: #222;
+  --color-3: #444;
+  --color-4: #666;
+  --color-5: #888;
+  --color-6: #aaa;
+  --color-7: #ccc;
+  --color-8: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +17,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  width: 100%;
 }
 
 .flex {
@@ -14,35 +26,35 @@ body {
 
 .navbar {
   justify-content: space-between;
-  background-color: rgb(68, 69, 70);
+  background-color: var(--color-2);
   height: 100px;
   padding: 20px 40px;
   align-items: center;
 }
 
 .nav-logo {
-  background-color: rgb(116, 114, 114);
+  background-color:  var(--color-7);
   width: 8%;
   height: 50px;
   border-radius: 5px;
 }
 
 .nav-link1, .nav-link2, .nav-link3, .nav-link4, .nav-link5 {
-  background-color: rgb(156, 154, 154);
+  background-color: var(--color-5);
   width: 4%;
   height: 35px;
   border-radius: 5px;
 }
 
 .nav-more {
-  background-color: rgb(110, 105, 105);
+  background-color: var(--color-6);
   width: 6%;
   height: 40px;
   border-radius: 5px;
 }
 
 .nav-search {
-  background-color: rgb(114, 112, 112);
+  background-color: var(--color-7);
   width: 12%;
   height: 50px;
   border-radius: 5px;
@@ -50,13 +62,13 @@ body {
 
 .tittle {
   text-align: center;
-  background-color: rgb(39, 38, 38);
+  background-color: var(--color-1);
   border-radius: 8px;
   color:white;
-  font-size: 35px;
+  font-size: 30px;
   position: absolute;
-  top: 160px;
-  left: 35%;
+  top: 150px;
+  left: 33%;
   font-weight: bold;
   padding: 10px 10px;
 }
@@ -66,13 +78,41 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   font-family: 'Fjalla One', sans-serif;
-  font-size: 1.2em;
-  padding: 150px 60px;
+  font-size: 1em;
   text-align: center;
-  height: 800px;
-  width: 1440px;
-  color: black;
+  height: 1200px;
+  color: var(--color-8);
   justify-content: center;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-6);
+  margin: 50px;
+  transform: rotate(-15deg);
+  transform-origin: left bottom;
+  transition: 0.3s ease-in-out;
+  border: solid 2px var(--color-7);
+  border-radius: 5px;
+}
+
+.photo:hover {
+  transform: rotate(0deg);
+}
+
+.name {
+  width: 80px;
+  height: 50px;
+  background-color: var(--color-8);
+  border: solid 2px var(--color-7);
+  border-radius: 5px;
+}
+
+.article-header {
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 150px;
 }
 
 .article-1, 
@@ -82,13 +122,100 @@ body {
 
 .article-2,
 .article-3 {
-  background-color:  #808080;;
+  background-color:  #808080;
 }
 
-.sc2-articles {
+.sc2-articles,
+.sc4-articles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr;
   justify-content: space-evenly;
-  margin: 10px;
+  height: 400px;
+  width: 100%;
+  background-color: var(--color-8);
+}
+
+.article {
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 50px;
+}
+
+.article-tittle {
+  background-color: var(--color-1);
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.article-author {
+  background-color: var(--color-3);
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.article-text {
+  background-color: var(--color-4);
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.sc3-article-ad,
+.sc5-article-ad {
+  background-color: var(--color-8);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  height: 400px;
+  width: 100%;
+}
+
+.ad-holder {
+  background-color: var(--color-6);
+  border-radius: 5px;
+  margin: 20px 40px;
+  width: 90%;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ad-img {
+  background-color: var(--color-8);
+  border: solid 2px var(--color-7);
+  width: 15%;
+  height: 25%;
+  border-radius: 90%;
+  margin: 20px 0px;
+}
+
+.ad-div {
+  background-color: var(--color-2);
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.ad-text {
+  background-color: var(--color-4);
+  width: 60%;
+  height: 70px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.ad-button {
+  background-color: var(--color-7);
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
 }
