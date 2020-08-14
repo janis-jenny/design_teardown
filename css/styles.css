@@ -24,12 +24,16 @@ body {
   display: flex;
 }
 
+.grid {
+  display:grid;
+}
+
 .navbar {
-  justify-content: space-between;
   background-color: var(--color-2);
   height: 100px;
   padding: 20px 40px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-logo {
@@ -39,7 +43,7 @@ body {
   border-radius: 5px;
 }
 
-.nav-link1, .nav-link2, .nav-link3, .nav-link4, .nav-link5 {
+.nav-link {
   background-color: var(--color-5);
   width: 4%;
   height: 35px;
@@ -61,10 +65,10 @@ body {
 }
 
 .tittle {
-  text-align: center;
   background-color: var(--color-1);
+  color: var(--color-8);
+  text-align: center;
   border-radius: 8px;
-  color:white;
   font-size: 30px;
   position: absolute;
   top: 150px;
@@ -74,7 +78,6 @@ body {
 }
 
 .sc1-articles {
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   font-family: 'Fjalla One', sans-serif;
@@ -86,9 +89,9 @@ body {
 }
 
 .photo {
+  background-color: var(--color-6);
   width: 100px;
   height: 100px;
-  background-color: var(--color-6);
   margin: 50px;
   transform: rotate(-15deg);
   transform-origin: left bottom;
@@ -115,19 +118,15 @@ body {
   margin-left: 150px;
 }
 
-.article-1, 
-.article-4 {
-  background-color: #696868;
+.article-1-4 {
+  background-color: var(--color-4);
 }
 
-.article-2,
-.article-3 {
-  background-color:  #808080;
+.article-2-3 {
+  background-color: var(--color-5);
 }
 
-.sc2-articles,
-.sc4-articles {
-  display: grid;
+.sc2-articles {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   justify-content: space-evenly;
@@ -166,10 +165,8 @@ body {
   margin-bottom: 30px;
 }
 
-.sc3-article-ad,
-.sc5-article-ad {
+.sc3-article-ad {
   background-color: var(--color-8);
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   height: 400px;
