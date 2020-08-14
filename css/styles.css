@@ -193,7 +193,7 @@ body {
   width: 15%;
   height: 25%;
   border-radius: 90%;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 
 .ad-div {
@@ -218,4 +218,14 @@ body {
   height: 30px;
   border-radius: 5px;
   margin: 10px 0px;
+}
+
+.sc6-ad-holder {
+  background-color: var(--color-6);
+  width: 96%;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 25px;
+  border-radius: 5px;
 }
