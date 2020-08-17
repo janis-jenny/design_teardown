@@ -39,7 +39,7 @@ body {
 }
 
 .nav-logo {
-  background-color:  var(--color-7);
+  background-color: var(--color-7);
   width: 8%;
   height: 50px;
   border-radius: 5px;
@@ -196,7 +196,7 @@ body {
   width: 15%;
   height: 25%;
   border-radius: 90%;
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
 .ad-div {
@@ -204,7 +204,7 @@ body {
   width: 40%;
   height: 30px;
   border-radius: 5px;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .ad-text {
@@ -212,7 +212,7 @@ body {
   width: 60%;
   height: 70px;
   border-radius: 5px;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .ad-button {
@@ -220,7 +220,7 @@ body {
   width: 20%;
   height: 30px;
   border-radius: 5px;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 .sc6-ad-holder {
@@ -293,7 +293,7 @@ body {
   border-radius: 5px;
   width: 25%;
   height: 25%;
-  margin: 30px 0px;
+  margin: 30px 0;
   transform: rotate(-15deg);
   transform-origin: left bottom;
   transition: 0.3s ease-in-out;
@@ -338,7 +338,7 @@ body {
   height: 30px;
   margin-bottom: 5px;
 }
-  
+
 .ad-book {
   background-color: var(--color-6);
   border: solid 2px var(--color-7);
@@ -397,7 +397,7 @@ body {
   width: 40%;
   height: 30px;
   border-radius: 5px;
-  margin: 100px 0px 30px;
+  margin: 100px 0 30px;
 }
 
 .links-footer {
@@ -412,13 +412,7 @@ body {
   width: 20%;
   height: 30px;
   border-radius: 5px;
-  margin: 40px 0px 30px;
+  margin: 40px 0 30px;
 }
 
 /* End of Footer Section */
-
-
-
-
-
-
