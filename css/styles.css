@@ -261,7 +261,7 @@ body {
   float: right;
   width: 35%;
   height: 30px;
-  margin: 70px 150px 35px 5px; 
+  margin: 70px 150px 35px 5px;
 }
 
 .person-text {
@@ -270,7 +270,7 @@ body {
   float: right;
   width: 45%;
   height: 90px;
-  margin: 5px 80px 30px 10px; 
+  margin: 5px 80px 30px 10px;
 }
 
 .persons-week {
@@ -334,7 +334,7 @@ body {
 .ad-intro {
   background-color: var(--color-8);
   border-radius: 5px;
-  width: 100px; 
+  width: 100px;
   height: 30px;
   margin-bottom: 5px;
 }
