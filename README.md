@@ -4,7 +4,7 @@
 
 > Heatmap of the smashing magazine homepage.
 
-![screenshot](.img\Heatmap.jpg)
+![screenshot](./img/Heatmap.jpg)
 
 ## Built With
 
