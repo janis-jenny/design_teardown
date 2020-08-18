@@ -28,6 +28,9 @@ body {
   display: grid;
 }
 
+.border {
+  border-radius: 5px;
+}
 /* Navbar Section */
 
 .navbar {
@@ -42,28 +45,24 @@ body {
   background-color: var(--color-7);
   width: 8%;
   height: 50px;
-  border-radius: 5px;
 }
 
 .nav-link {
   background-color: var(--color-5);
   width: 4%;
   height: 35px;
-  border-radius: 5px;
 }
 
 .nav-more {
   background-color: var(--color-6);
   width: 6%;
   height: 40px;
-  border-radius: 5px;
 }
 
 .nav-search {
   background-color: var(--color-7);
   width: 12%;
   height: 50px;
-  border-radius: 5px;
 }
 
 /* End of Navbar Section */
@@ -74,7 +73,6 @@ body {
   background-color: var(--color-1);
   color: var(--color-8);
   text-align: center;
-  border-radius: 8px;
   font-size: 30px;
   position: absolute;
   top: 150px;
@@ -103,7 +101,6 @@ body {
   transform-origin: left bottom;
   transition: 0.3s ease-in-out;
   border: solid 2px var(--color-7);
-  border-radius: 5px;
 }
 
 .photo:hover {
@@ -113,7 +110,6 @@ body {
 .name {
   background-color: var(--color-8);
   border: solid 2px var(--color-7);
-  border-radius: 5px;
   width: 80px;
   height: 50px;
 }
@@ -151,7 +147,6 @@ body {
   background-color: var(--color-1);
   width: 200px;
   height: 40px;
-  border-radius: 5px;
   margin-bottom: 30px;
 }
 
@@ -159,7 +154,6 @@ body {
   background-color: var(--color-3);
   width: 100px;
   height: 40px;
-  border-radius: 5px;
   margin-bottom: 30px;
 }
 
@@ -167,7 +161,6 @@ body {
   background-color: var(--color-4);
   width: 200px;
   height: 150px;
-  border-radius: 5px;
   margin-bottom: 30px;
 }
 
@@ -181,7 +174,6 @@ body {
 
 .ad-holder {
   background-color: var(--color-6);
-  border-radius: 5px;
   margin: 20px 40px;
   width: 90%;
   grid-column-start: 2;
@@ -203,7 +195,6 @@ body {
   background-color: var(--color-2);
   width: 40%;
   height: 30px;
-  border-radius: 5px;
   margin: 10px 0;
 }
 
@@ -211,7 +202,6 @@ body {
   background-color: var(--color-4);
   width: 60%;
   height: 70px;
-  border-radius: 5px;
   margin: 10px 0;
 }
 
@@ -219,7 +209,6 @@ body {
   background-color: var(--color-7);
   width: 20%;
   height: 30px;
-  border-radius: 5px;
   margin: 10px 0;
 }
 
@@ -230,7 +219,6 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 25px 25px;
-  border-radius: 5px;
 }
 
 .person-week {
@@ -241,7 +229,6 @@ body {
 .person-photo {
   background-color: var(--color-3);
   border: solid 2px var(--color-7);
-  border-radius: 5px;
   float: left;
   width: 180px;
   height: 180px;
@@ -257,7 +244,6 @@ body {
 
 .person-name {
   background-color: var(--color-1);
-  border-radius: 5px;
   float: right;
   width: 35%;
   height: 30px;
@@ -266,7 +252,6 @@ body {
 
 .person-text {
   background-color: var(--color-4);
-  border-radius: 5px;
   float: right;
   width: 45%;
   height: 90px;
@@ -290,7 +275,6 @@ body {
 .person-pic {
   background-color: var(--color-3);
   border: solid 2px var(--color-7);
-  border-radius: 5px;
   width: 25%;
   height: 25%;
   margin: 30px 0;
@@ -305,7 +289,6 @@ body {
 
 .person-tittle {
   background-color: var(--color-1);
-  border-radius: 5px;
   width: 8%;
   height: 30px;
   position: absolute;
@@ -314,7 +297,6 @@ body {
 
 .person-info {
   background-color: var(--color-4);
-  border-radius: 5px;
   width: 27%;
   height: 90px;
   position: absolute;
@@ -333,7 +315,6 @@ body {
 
 .ad-intro {
   background-color: var(--color-8);
-  border-radius: 5px;
   width: 100px;
   height: 30px;
   margin-bottom: 5px;
@@ -342,7 +323,6 @@ body {
 .ad-book {
   background-color: var(--color-6);
   border: solid 2px var(--color-7);
-  border-radius: 5px;
   width: 28%;
   height: 60%;
   margin: -33em 15px 10em 28px;
@@ -371,7 +351,6 @@ body {
 
 .ad-bottom {
   background-color: var(--color-6);
-  border-radius: 5px;
   margin: 20px 40px;
   width: 92%;
   height: 360px;
@@ -396,7 +375,6 @@ body {
   background-color: var(--color-2);
   width: 40%;
   height: 30px;
-  border-radius: 5px;
   margin: 100px 0 30px;
 }
 
@@ -404,14 +382,12 @@ body {
   background-color: var(--color-4);
   width: 60%;
   height: 100px;
-  border-radius: 5px;
 }
 
 .links-1-footer {
   background-color: var(--color-7);
   width: 20%;
   height: 30px;
-  border-radius: 5px;
   margin: 40px 0 30px;
 }
 
